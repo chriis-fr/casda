@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//udemy.com//Udemy
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Africa/Nairobi
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Udemy":mailto:no-reply@udemy.com
+SUMMARY:Learning reminder Chris
+SEQUENCE:0
+DTSTAMP:20240323T055353Z
+DTSTART;TZID=Africa/Nairobi:20240323T120000
+DTEND;TZID=Africa/Nairobi:20240323T123000
+UID:4774914
+RRULE:FREQ=DAILY;
+DESCRIPTION:JavaScript Data Structures & Algorithms + LEETCODE Exercises (https://www.udemy.com/course/data-structures-algorithms-javascript/learn/)
+
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Learning reminder Chris
+END:VALARM
+END:VEVENT
+END:VCALENDAR
